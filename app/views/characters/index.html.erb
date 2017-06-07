@@ -1,0 +1,6 @@
+<h1>WINTER IS COMING!!!</h1>
+
+<% @characters.each do |character| %>
+	<h2> <a href="/characters/<%= character['id'] %>"> <%= character['first_name'] %> </a></h2>
+	<br>
+<% end %>	
